@@ -107,7 +107,7 @@ gem 'sentry-raven'
 
 gem 'bootsnap', require: false
 gem 'rbtrace'
-gem 'redis-namespace'
+gem 'redis-namespace', '~> 1.8.1'
 gem 'stackprof'
 gem 'flamegraph'
 gem 'prawn'

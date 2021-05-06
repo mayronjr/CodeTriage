@@ -342,7 +342,7 @@ GEM
       msgpack (>= 0.4.3)
       optimist (>= 3.0.0)
     redis (4.2.5)
-    redis-namespace (1.7.0)
+    redis-namespace (1.8.1)
       redis (>= 3.0.4)
     regexp_parser (2.1.1)
     render_async (2.1.9)
@@ -506,7 +506,7 @@ DEPENDENCIES
   rails_autoscale_agent!
   rake
   rbtrace
-  redis-namespace
+  redis-namespace (~> 1.8.1)
   render_async (~> 2.1)
   rrrretry
   rubocop
@@ -540,4 +540,4 @@ RUBY VERSION
    ruby 2.7.2p137
 
 BUNDLED WITH
-   2.1.4
+   2.2.17
